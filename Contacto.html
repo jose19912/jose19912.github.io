@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="iconos/luna.png">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: blue;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        form {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        form th {
+            text-align: left;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .btn-primary {
+            background-color: darkslateblue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            font-size: 16px;
+        }
+        .btn-primary:hover {
+            background-color: #3e8e41;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .navbar {
+            background-color: #343a40;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .navbar .navbar-brand {
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .navbar-nav .nav-link {
+            color: #fff;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+        .navbar .navbar-nav {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a class="navbar-brand" href="#">Contactanos</a>
+            <nav class="navbar-nav">
+                <a class="nav-link" href="index.html">Inicio</a>
+                <a class="nav-link" href="Sobre Nosotros.html">Sobre Nosotros</a>
+                <a class="nav-link" href="Menus.html">Menu de productos</a>
+                <a class="nav-link" href="Contacto.html">Contactanos</a>
+            </nav>
+        </div>
+        <form>
+            
+            <table border="0" style="text-align: left; margin: 0 auto;">
+                <tr>
+                    <th>Nombre:</th>
+                    <td><input type="text" name="nombre"></td>
+                </tr>
+                <tr>
+                    <th>Correo electrónico:</th>
+                    <td><input type="email" name="correo"></td>
+                </tr>
+                <tr>
+                    <th>Nombre de Cliente:</th>
+                    <td><input type="text" name="asunto"></td>
+                </tr>
+                <tr>
+                    <th>Ingrese una contraseña:</th>
+                    <td><input type="password" name="contra" placeholder="*******"></td>
+                </tr>
+                <tr>
+                    <th>Numero de telefono:</th>
+                    <td><input type="text" name="nombre_paciente" placeholder="ejem. 0000-0000"></td>
+                </tr>
+                <tr>
+                    <th>Pedido:</th>
+                    <td><textarea name="mensaje" rows="5"></textarea></td>
+                </tr> 
+                <tr>
+                    <td><input class="btn btn-primary" type="submit" value="Enviar"></td>
+                    <td><input class="btn btn-secondary" type="reset" value="Borrar datos"></td>
+                </tr>
+            </table>
+        </form>
+        <div class="footer">
+            <h2>Nuestras redes</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100070033456409">Facebook</a></li>
+                <li><a href="https://twitter.com/lamedialunaes">Twitter</a></li>
+                <li><a href="https://www.instagram.com/lamedialuna.ec/?hl=es">Instagram</a></li>
+                <li><img src="iconos/whatsapp.png" height="64" width="64">Whatsapp: 7971-3817</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

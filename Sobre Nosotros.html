@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="iconos/luna.png">
+    <title>Sobre Nosotros</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #9C640C;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            color: hotpink;
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: bisque;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .collage {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .collage img {
+            width: calc(33.33% - 10px);
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .collage img:hover {
+            transform: scale(1.1);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar .navbar-brand {
+            color: #fff;
+        }
+        .navbar .navbar-nav .nav-link {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sobre Nosotros</h1>
+        <p>Somos una empresa dedicada a la satisfacción de nuestros clientes con una amplia carta de postres y bebidas a base de café, en un lugar donde se puede respirar tranquilidad tanto para nuestros clientes como para nuestra fuerza de trabajo, siempre comprometidos con la calidad de nuestros productos y servicio sin dejar de lado el cuidado del medio ambiente, el cuidado de nuestra gente y de nuestra localidad.</p>
+        <h2>Nuestras Instalaciones</h2>
+        <div class="collage">
+            <img src="instalaciones/1.jpg" alt="Foto 1" title="Fachada">
+            <img src="instalaciones/2.jpg" alt="Foto 2" title="Un lugar confortable">
+            <img src="instalaciones/3.jpg" alt="Foto 3" title="Amplio espacio">
+            <img src="instalaciones/4.jpg" alt="Foto 4" title="La mejor ambientación">
+            <img src="instalaciones/5.jpg" alt="Foto 5" title="El mejor servicio">
+            <img src="instalaciones/6.jpg" alt="Foto 6" title="Un lugar de lectura">
+        </div>
+        <p>Un lugar lindo, agradable y muy seguro. Que te brinda un excelente servicio, donde podrás disfrutar con tus amigos o familia o si solo necesitas un tiempo para disfrutar un rico café acompañado de un postre o bocadillo.</p>
+        <p>¡TE ESPERAMOS!</p>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Sobre Nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Menus.html">Menú de Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contacto.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
